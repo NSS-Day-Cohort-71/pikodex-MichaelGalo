@@ -9,9 +9,9 @@ export const pikoList = () => {
         <img src="${piko.imageUrl}" alt="${piko.name} image" class="piko-img">
             <div class="piko-info">
                 <h3 class="piko-name">${piko.name}</h3>
-                <h4 class="piko-category">${piko.category}</h4>
-                <p class="piko-abilities">This Piko's main ability is: ${piko.abilities}</p>
-                <p class="piko-weakness">This Piko's weakness is: ${piko.weakness}</p>
+                <p class="piko-category"><i>${piko.category}</i></p>
+                <p class="piko-abilities">This Piko's main ability is: <br><b>${piko.abilities}</b></p>
+                <p class="piko-weakness">This Piko's weakness is: <br><b>${piko.weakness}</b></p>
             </div>
         </article>
         `;

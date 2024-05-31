@@ -2,15 +2,26 @@
   text-align: center;
   font-family: copperplate;
   font-size: 5em;
-  margin-top: 1rem;
+  background-color: #f4a261;
+  color: #264653;
+  padding: 0;
+  border: none;
+  margin: 0 0 0 0;
+}
+
+body {
+  padding: 0;
+  border: none;
+  margin: 0 0 0 0;
 }
 
 #container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 0 0 0;
+  background-color: #e9c46a;
 }
 
 .piko-card {
@@ -19,6 +30,9 @@
   /* adding new features */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
+  align-items: center;
+  background-color: #f4a261;
+  color: #264653;
 }
 
 .piko-card:hover {

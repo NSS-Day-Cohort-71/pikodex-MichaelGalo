@@ -76,6 +76,8 @@ body {
   font-size: 1rem;
 }
 
+/* everything beneath here is for the delayed animation rendering classes */
+
 .hidden {
   opacity: 0;
   transition: 0.5s;
